@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>IPS: Integrated Product Support - Module Select</title>
+<link href="style_default.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="bookmark icon" href="favicon.ico" />
+</head>
+
+<body>
+
+<div id="content_wrapper">
+	<div id="content">
+		<div id="man_point"></div>
+		<div id="masthead">
+			<div class="title">IPS: Integrated Product Support WBT</div>
+		</div>
+		<a onClick="document.getElementById('dayplanner').className='m2'; document.getElementById('man_point').className='hidden';"><div style="position: absolute; top: 144px; left: 30px; width: 32px; height: 50px; cursor: pointer; z-index: 5;"></div></a>
+		<a onClick="document.getElementById('dayplanner').className=''; document.getElementById('man_point').className='';"><div style="position: absolute; top: 94px; left: 30px; width: 32px; height: 50px; cursor: pointer; z-index: 5;"></div></a>
+		<div id="dayplanner"></div>
+		<div id="ipspad" class="select stashed">
+			<div id="ipspad_layout">
+				<a onClick="document.getElementById('ipspad').className='stashed'; document.getElementById('textmenu').className='select';"><div class="hidephone"></div>
+				</a>
+			</div><!-- Close IPSPAD_LAYOUT -->
+		</div><!-- Close IPSPAD -->
+		<div id="footer">
+			<div id="footer_positioner">
+				<div id="exit"><a href="#">EXIT</a></div>
+				<div id="textmenu">
+					<a href="index.html">home</a>
+					<span class="divider">.</span>
+					topics
+					<span class="divider">.</span>
+					<a href="#">assets</a> <span class="submenu">[ <a href="#">glossary</a> . <a href="#">documents</a> . <a href="#">references</a> ]</span>
+					<span class="divider">.</span>
+					<a href="#">help</a> <span class="submenu">[ <a href="#">navigation</a> . <a href="#">course admin</a> . <a href="#">system req</a> ]</span>
+				</div>
+				<div id="led" class="blink"></div>
+				<div id="lcd">
+					<div id="lcd_text">Please select a module to begin.</div>
+				</div>
+				<div id="footer_navigation">
+					<a href="index.html" id="footer_navigation_prev"><span>Previous</span></a>
+					<a id="footer_navigation_launchpad" onClick="document.getElementById('ipspad').className='select'; document.getElementById('textmenu').className='hidden';"><span>Launch Pad</span></a>
+					<a href="index_lesson.html" id="footer_navigation_next"><span>Next</span></a>
+				</div>
+			</div><!-- Close FOOTER_POSITIONER -->
+		</div><!-- Close FOOTER -->
+		
+	</div>
+</div>
+
+</body>
+</html>
